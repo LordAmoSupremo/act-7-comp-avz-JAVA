@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib version="2.1" xmlns="http://java.sun.com/xml/ns/javaee"
+<tlib-version>1.0</tlib-version>
+    <short-name>misTags</short-name>
+    <uri>/WEB-INF/tlds/mis_tags</uri>
+
+    <tag>
+        <name>vacio</name>
+        <tag-class>tagpersonalizados.VacioHandler</tag-class>
+        <body-content>empty</body-content>
+    </tag>
+
+    <tag>
+        <name>cuerpo</name>
+        <tag-class>tagpersonalizados.CuerpoHandler</tag-class>
+        <body-content>scriptless</body-content>
+    </tag>
+</taglib>
